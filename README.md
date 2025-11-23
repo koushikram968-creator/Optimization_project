@@ -1,48 +1,79 @@
-)**Team Details**(
-Team Name: Koushik n co
-Member 1: Ram koushik
-Member 2: Mithun kumar
-Member 3: Sohan Reddy
+# **Optimal Shipment Planning Using Integer Linear Programming (ILP)**
 
-**Project Title**
-Optimal Shipment Planning Using Integer Linear Programming (ILP)
+---
 
-**Project Description**
-This project optimizes the delivery of goods from multiple warehouses to multiple customers while minimizing transportation cost.
+## **Team Details**
+**Team Name:** Koushik n co  
+**Member 1:** Ram Koushik  
+**Member 2:** Mithun Kumar  
+**Member 3:** Sohan Reddy  
 
+---
 
-**Project Structure**
+## **Project Title**  
+**Optimal Shipment Planning Using Integer Linear Programming (ILP)**
+
+---
+
+## **Project Description**  
+This project optimizes the delivery of goods from multiple warehouses to multiple customers while minimizing transportation cost.  
+The model considers:
+- Warehouse supply limits  
+- Customer demand requirements  
+- Route capacity constraints  
+- Shipping costs and distance-based fuel weight  
+- Integer shipment quantities  
+
+The ILP solution finds the cheapest feasible shipment plan that satisfies all constraints.
+
+---
+
+## **Project Structure**
 project/
 │── code/
-│   ├── main.py
-│   ├── generate_dataset.py
-│   ├── ilp_solver.py
-│   ├── utils.py
+│ ├── main.py
+│ ├── generate_dataset.py
+│ ├── ilp_solver.py
+│ ├── utils.py
 │── data/
 │── output/
 │── runs/
 │── README.md
 
-**Libraries Used**
-Python 3,NumPy,Pandas,PuLP (CBC Solver),Matplotlib,Seaborn,OS & JSON modules
 
-**Install requirements with:**
-pip install numpy pandas pulp matplotlib seaborn
+---
 
-**How to Run**::
-**Navigate to project folder**
+## **Libraries Used**
+- Python 3  
+- NumPy  
+- Pandas  
+- PuLP (CBC Solver)  
+- Matplotlib  
+- Seaborn  
+- OS & JSON modules  
+
+---
+
+## **Installation**
+Install required dependencies using:
+
+
+---
+
+## **How to Run**
+
+### **1. Navigate to the project folder**
 cd project
 
-**Run main program**
+### **2. Run the main program**
 python code/main.py
 
-**Provide input when asked**
-Number of warehouses (1–15)
-Number of customers (1–15)
-Distance weight (0–1)
+### **3. Provide input when asked**
+- Number of warehouses (1–15)  
+- Number of customers (1–15)  
+- Distance weight (0–1)  
 
-Example:
-
+### **Example Input**
 Number of warehouses: 4
 Number of customers: 6
 Distance weight: 0.7
