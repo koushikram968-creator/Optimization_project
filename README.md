@@ -27,8 +27,7 @@ The model considers:
 The ILP solution finds the cheapest feasible shipment plan that satisfies all constraints.
 
 ---
-**Project Structure**
-
+<pre>
 project/
 │── code/
 │   ├── main.py
@@ -39,6 +38,7 @@ project/
 │── output/
 │── runs/
 │── README.md
+</pre>
 
 
 ## **Libraries Used**
