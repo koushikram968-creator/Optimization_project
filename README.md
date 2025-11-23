@@ -28,17 +28,6 @@ The ILP solution finds the cheapest feasible shipment plan that satisfies all co
 
 ---
 
-## **Project Structure**
-project/
-│── code/
-│ ├── main.py
-│ ├── generate_dataset.py
-│ ├── ilp_solver.py
-│ ├── utils.py
-│── data/
-│── output/
-│── runs/
-│── README.md
 
 
 ---
