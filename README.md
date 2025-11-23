@@ -27,8 +27,17 @@ The model considers:
 The ILP solution finds the cheapest feasible shipment plan that satisfies all constraints.
 
 ---
-
-
+**Project Structure**
+project/
+│── code/
+│ ├── main.py
+│ ├── generate_dataset.py
+│ ├── ilp_solver.py
+│ ├── utils.py
+│── data/
+│── output/
+│── runs/
+│── README.md
 
 ---
 
