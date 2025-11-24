@@ -16,6 +16,10 @@ def plot_heatmap(x_mat, title="", outpath="heatmap.png",fmt=".0f"):
 
     plt.figure(figsize=(8, 5))
     sns.heatmap(x_mat, annot=True, fmt=fmt, cmap="viridis")
+    plt.xticks(np.arange(x_mat.shape[1]) + 0.5, np.arange(1, x_mat.shape[1] + 1))
+    plt.yticks(np.arange(x_mat.shape[0]) + 0.5, np.arange(1, x_mat.shape[0] + 1))
+
+
     plt.xlabel("Customer (j)")
     plt.ylabel("Warehouse (i)")
     plt.title(title)
