@@ -22,7 +22,7 @@ def generate_dataset(W,C,outdir="data", seed=None):
     if supply.sum() < total_demand:
         supply[0] += total_demand - supply.sum()
 
-    route_capacity = np.random.randint(50, 100, size=(W, C))
+    route_capacity = np.random.randint(100, 300, size=(W, C))
 
     for j in range(C):
         col_sum = route_capacity[:, j].sum()
@@ -106,4 +106,5 @@ def generate_dataset(W,C,outdir="data", seed=None):
         f.write("\n")
 
     return instance
+
 
